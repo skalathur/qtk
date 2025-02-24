@@ -1,0 +1,76 @@
+.Cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+/*.Cell--chosen.CellZone--0,
+.Cell--chosen.CellZone--3 {
+  border: 2px solid #2f99ba;
+}*/
+.Cell--chosen {
+  border: 3px solid #6ab4ce;
+  background-color: #aed7e8 !important;
+}
+.Cell--winning {
+  background-color: #ffe35f !important;
+}
+.CellY--0 {
+  left: 0;
+}
+.CellY--1 {
+  left: 60px;
+}
+.CellY--2 {
+  left: 120px;
+}
+.CellY--3 {
+  left: 180px;
+}
+.CellX--0 {
+  top: 0;
+}
+.CellX--1 {
+  top: 60px;
+}
+.CellX--2 {
+  top: 120px;
+}
+.CellX--3 {
+  top: 180px;
+}
+
+.CellX--0.CellY--3 {
+  border-top-right-radius: 3px;
+}
+.CellX--0.CellY--0 {
+  border-top-left-radius: 3px;
+}
+.CellX--3.CellY--3 {
+  border-bottom-right-radius: 3px;
+}
+.CellX--3.CellY--0 {
+  border-bottom-left-radius: 3px;
+}
+
+.CellZone--0 {
+  background: url('images/dark-stripes-light.png') repeat;
+  background-color: #ebeeef;
+}
+.CellZone--1 {
+  background-color: #515f65;
+  background-image: url('images/brushed-alum.png');
+}
+.CellZone--2 {
+  background-color: #515f65;
+  background-image: url('images/brushed-alum.png');
+}
+.CellZone--3 {
+  background: url('images/dark-stripes-light.png') repeat;
+  background-color: #ebeeef;
+}

@@ -1,0 +1,97 @@
+.Piece {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+}
+
+.PlayerPiece .Piece {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 2px 3px;
+}
+
+.Choice .Piece {
+  display: inline-block;
+  margin: 3px 7px;
+  cursor: pointer;
+}
+
+.Choice .Piece--notAllowed {
+  opacity: .2;
+  cursor: not-allowed;
+}
+
+.Piece--square.Piece--black {
+  background: url('images/pieces/square_black.svg') no-repeat;
+  background-size: contain;
+}
+.Piece--circle.Piece--black {
+  background: url('images/pieces/circle_black.svg') no-repeat;
+  background-size: contain;
+}
+.Piece--triangle.Piece--black {
+  background: url('images/pieces/triangle_black.svg') no-repeat;
+  background-size: contain;
+}
+.Piece--cross.Piece--black {
+  background: url('images/pieces/cross_black.svg') no-repeat;
+  background-size: contain;
+}
+.Piece--square.Piece--white {
+  background: url('images/pieces/square_white.svg') no-repeat;
+  background-size: contain;
+}
+.Piece--circle.Piece--white {
+  background: url('images/pieces/circle_white.svg') no-repeat;
+  background-size: contain;
+}
+.Piece--triangle.Piece--white {
+  background: url('images/pieces/triangle_white.svg') no-repeat;
+  background-size: contain;
+}
+.Piece--cross.Piece--white {
+  background: url('images/pieces/cross_white.svg') no-repeat;
+  background-size: contain;
+}
+
+/*
+.Piece--triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 25px 46px 25px;
+  border-color: transparent transparent #ccc transparent;
+}
+
+.Piece--triangle.Piece--black {
+  border-color: transparent transparent black transparent;
+}
+
+.Piece--circle {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.Piece--cross {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to bottom, transparent 35%, #ccc 35%, #ccc 65%,  transparent 65%),
+    linear-gradient(to right, transparent 35%, #ccc 35%, #ccc 65%, transparent 65%);
+}
+
+.Piece--cross.Piece--black {
+  background: linear-gradient(to bottom, transparent 35%, black 35%, black 65%,  transparent 65%),
+    linear-gradient(to right, transparent 35%, black 35%, black 65%, transparent 65%);
+}
+
+.Piece--white:not(.Piece--triangle):not(.Piece--cross) {
+  color: #ccc;
+}
+
+.Piece--black:not(.Piece--triangle):not(.Piece--cross) {
+  color: black;
+}
+*/
